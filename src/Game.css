@@ -15,7 +15,6 @@
   height: 90vh;
   background-color: #cfcfcf;
   font-family: "Pacifico";
-  min-width: 576px;
 }
 .container .title {
   font-size: 27px;
@@ -45,6 +44,16 @@
 
 @media (max-width: 780px) {
   .container .title {
-    margin: 15vh auto 4vh;
+    font-size: 22px;
+    margin: 8vh auto 2vh;
+  }
+  .container .subtitle {
+    font-size: 18px;
+  }
+  .container .foto {
+    margin: 4vh auto 4vh;
+  }
+  .container .foto img {
+    height: 100px;
   }
 }/*# sourceMappingURL=Game.css.map */
