@@ -9,7 +9,7 @@
   margin: 2vh auto;
 }
 .result h3 {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 700;
 }
 .result p {
@@ -17,7 +17,11 @@
 }
 
 @media (max-width: 780px) {
-  .result {
-    flex-direction: column;
+  .result h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .result p {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=Result.css.map */
