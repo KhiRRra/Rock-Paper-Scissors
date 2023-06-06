@@ -1,0 +1,23 @@
+.result {
+  color: var(--color-label);
+  margin: 3vh auto 0 auto;
+}
+.result .choise {
+  margin: 2vh auto;
+}
+.result .score {
+  margin: 2vh auto;
+}
+.result h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.result p {
+  font-size: 18px;
+}
+
+@media (max-width: 780px) {
+  .result {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=Result.css.map */
